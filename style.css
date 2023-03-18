@@ -1,6 +1,7 @@
 header {
-    background-color: red;
-    color: white;
+    
+    background-color: white;
+    border-style: double;
     padding: 0.1em;
     grid-area: header;
     margin-bottom: 0.1em;
@@ -13,11 +14,12 @@ header {
 
 
 nav {
-    background-color: red;
+    border-style: double;
+    
 }
 
 nav ul {
-    background-color: red;
+    
     list-style-type: none;
     display: grid;
     margin: 0%;
@@ -29,13 +31,13 @@ nav ul {
 }
 
 nav li{
-    background-color: red;
+    border-style: double;
     display: inline-block;
     
 }
 
 nav a{
-    background-color: red;
+    
     display: block;
     padding: 6px 5px;
     width: 240px;
@@ -83,7 +85,6 @@ footer {
 
 .text{
     text-align: center;
-    background-color: red;
     color: white;
     font-weight: bolder;
     font-size: larger;
@@ -103,7 +104,7 @@ footer {
     text-align: center;
     font-weight: bolder;
     font-size: larger;
-    background-color: red;
+
 }
 
 
