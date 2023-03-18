@@ -1,7 +1,7 @@
 header {
     background-color: red;
     color: white;
-    padding: 20px;
+    padding: 0.1em;
     grid-area: header;
     margin-bottom: 0.1em;
     text-align: center;
@@ -50,13 +50,11 @@ nav a:hover{
 }
 
 main {
-    background-color: black;
     color: white;
     grid-area: main;
 }
 
 aside {
-    background-color: black;
     grid-area: aside;
 }
 
@@ -156,4 +154,15 @@ input[type="submit"] {
     display: grid;
     padding: 1em;
     align-items: center;
+}
+body{
+      background: linear-gradient(-45deg, red, #8800FF, #B867FE, #FE67C4);
+      background-size: 400% 400%;
+      animation: gradient 4s ease infinite;
+      height: auto;
+      color: var(--clr-dark);
+      margin: 0;
+      font-family: var(--ff-primary);
+      font-size: var(--fs-body);
+      line-height: 1.6;
 }
