@@ -79,3 +79,48 @@ footer {
     font-weight: bolder;
     font-size: larger;
 }
+
+form {
+    display: grid;
+    width: 400px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+}
+
+input[type="submit"] {
+    grid-column: 2;
+}
+
+#check{
+    display: grid;
+    width: 400px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+    padding-right: 15em;
+    
+}
+
+#login{
+    padding: %;
+    font-size: small;
+}
+
+#termss{
+    padding: 5%;
+    font-size: small;
+}
+
+#button{
+    align-items: normal;
+    position:static;
+    width: 100px;
+    
+    
+
+}
+
+body{
+    background-color: pink;
+}
