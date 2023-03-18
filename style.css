@@ -73,6 +73,14 @@ footer {
     padding: 5%;
 }
 
+.second{
+    height: auto;
+    width: 20%;
+    padding: 25em;
+
+  
+}
+
 .text{
     text-align: center;
     color: white;
@@ -80,9 +88,18 @@ footer {
     font-size: larger;
 }
 
+.heads{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: red;
+}
+
+
 form {
     display: grid;
-    width: 400px;
+    width: 83em;
     grid-template-columns: 50% 50%;
     align-items: center;
     grid-gap: 0.5em;
@@ -112,21 +129,18 @@ input[type="submit"] {
     font-size: small;
 }
 
-#button{
-    align-items: normal;
-    position:static;
-    width: 100px;
-    
-    
-
+.firstname{
+    width: 100em;
 }
 
-body{
-    background-color: pink;
+.submit{
+    width: 7em;
+    font-weight: bolder;
 }
+
 
 #QNA{
     display: grid;
-    
+    padding: 1em;
     align-items: center;
 }
