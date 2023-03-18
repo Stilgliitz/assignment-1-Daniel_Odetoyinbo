@@ -65,18 +65,6 @@ footer {
     grid-area: footer;
 }
 
-body {
-    background-color: black;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "header header header"
-    "nav nav nav"
-    "main main main"
-    "aside aside aside"
-    "footer footer footer"
-}
 
 .first{
     height: auto;
@@ -84,6 +72,9 @@ body {
     padding: 5%;
 }
 
-p{
+.text{
+    text-align: center;
     color: white;
+    font-weight: bolder;
+    font-size: larger;
 }
