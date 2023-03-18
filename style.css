@@ -1,8 +1,9 @@
 header {
-    background-color: cyan;
+    background-color: red;
     color: white;
     padding: 20px;
     grid-area: header;
+    margin-bottom: 0.1em;
     text-align: center;
     font-size: larger;
     font-weight: bold;
