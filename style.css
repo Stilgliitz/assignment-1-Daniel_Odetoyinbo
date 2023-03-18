@@ -124,3 +124,9 @@ input[type="submit"] {
 body{
     background-color: pink;
 }
+
+#QNA{
+    display: grid;
+    
+    align-items: center;
+}
