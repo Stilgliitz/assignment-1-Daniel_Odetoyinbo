@@ -1,4 +1,15 @@
-.showNav {
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "header"
+        "nav nav"
+        "main"
+        "aside"
+        "footer";
+}
+
+.showNav a {
     height: 0.8em;
     width: 1.25em;
     display: block;
