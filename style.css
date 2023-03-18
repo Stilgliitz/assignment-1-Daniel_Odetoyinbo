@@ -59,7 +59,6 @@ aside {
 }
 
 footer {
-    background-color: red;
     color: white;
     grid-area: footer;
     text-align: center;
@@ -156,7 +155,7 @@ input[type="submit"] {
     align-items: center;
 }
 body{
-      background: linear-gradient(-45deg, red, #8800FF, #B867FE, #FE67C4);
+      background: linear-gradient(-45deg, red, #cc0000, #800000, #ff4d4d, #ff6666);
       background-size: 400% 400%;
       animation: gradient 4s ease infinite;
       height: auto;
@@ -166,3 +165,14 @@ body{
       font-size: var(--fs-body);
       line-height: 1.6;
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
