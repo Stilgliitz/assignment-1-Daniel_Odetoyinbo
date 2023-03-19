@@ -1,11 +1,32 @@
 nav {
     display: none;
-    background-color: yellow;
     position: fixed;
     top: 0;
     left: 50%;
     width: 50%;
     height: 100vh;
+}
+
+nav li {
+    border-style: double;
+    list-style: none;
+    
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 6px 5px;
+    width: 255px;
+    color: wheat;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    background: darksalmon;
 }
 
 .showNav {
@@ -14,12 +35,11 @@ nav {
     display: block;
     border-top: 0.2em solid black;
     border-bottom: 0.2em solid black;
-    position: absolute;
+
 }
 
 .showNav::before {
     content: '';
-    position: absolute;
     width: 1.25em;
     margin-top: 0.3em;
     border-top: 0.2em solid black;
@@ -46,6 +66,33 @@ nav {
 #clicked:target nav {
     display: block;
 }
+
+body {
+    background: linear-gradient(-45deg, red, #cc0000, #800000, #ff4d4d, #ff6666);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    height: auto;
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 body {
     display: grid;
     grid-template-columns: 100%;

@@ -77,7 +77,7 @@ footer {
 
 form {
     display: grid;
-    width: 83em;
+    width: 25em;
     grid-template-columns: 50% 50%;
     align-items: center;
     grid-gap: 0.5em;
