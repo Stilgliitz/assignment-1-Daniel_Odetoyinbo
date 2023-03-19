@@ -123,6 +123,15 @@ input[type="submit"] {
     align-items: center;
 }
 
+#emailbutton{
+    text-align: center;
+    align-items: center;
+    border-style: double;
+    text-decoration: none;
+    color: white;
+
+}
+
 
 body {
     background: linear-gradient(-45deg, red, #cc0000, #800000, #ff4d4d, #ff6666);
