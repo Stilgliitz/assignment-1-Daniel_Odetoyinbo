@@ -2,6 +2,7 @@ header {
 
     background-color: white;
     border-style: double;
+    grid-area: header;
     padding: 0.1em;
     grid-area: header;
     margin-bottom: 0.1em;
@@ -9,44 +10,6 @@ header {
     font-size: larger;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-}
-
-
-
-nav {}
-
-nav ul {
-
-    list-style-type: none;
-    display: grid;
-    margin: 0%;
-    grid-template-columns: repeat(5, auto);
-    text-align: center;
-    padding: 0%;
-
-
-}
-
-nav li {
-    border-style: double;
-    display: inline-block;
-
-}
-
-nav a {
-
-    display: block;
-    padding: 6px 5px;
-    width: 255px;
-    color: wheat;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    font-weight: bolder;
-}
-
-nav a:hover {
-    background: darksalmon;
 }
 
 main {
@@ -185,16 +148,4 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
-
-body {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "header header header"
-        "nav nav nav"
-        "main main main"
-        "aside aside aside"
-        "footer footer footer"
 }
