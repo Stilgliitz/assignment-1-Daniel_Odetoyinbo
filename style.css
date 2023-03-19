@@ -1,5 +1,5 @@
 header {
-    
+
     background-color: white;
     border-style: double;
     padding: 0.1em;
@@ -13,13 +13,10 @@ header {
 
 
 
-nav {
-    border-style: double;
-    
-}
+nav {}
 
 nav ul {
-    
+
     list-style-type: none;
     display: grid;
     margin: 0%;
@@ -30,24 +27,25 @@ nav ul {
 
 }
 
-nav li{
+nav li {
     border-style: double;
     display: inline-block;
-    
+
 }
 
-nav a{
-    
+nav a {
+
     display: block;
     padding: 6px 5px;
-    width: 240px;
+    width: 255px;
     color: wheat;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: bolder;
 }
-nav a:hover{
+
+nav a:hover {
     background: darksalmon;
 }
 
@@ -67,45 +65,45 @@ footer {
 }
 
 
-.first{
+.first {
     height: auto;
     width: 20%;
     padding: 5%;
 }
 
-.first1{
+.first1 {
     height: auto;
     width: 20%;
     padding: 2%;
 }
 
-.second{
+.second {
     display: block;
     height: auto;
     width: 20%;
     padding: 5em;
     margin-left: auto;
     margin-right: auto;
-  
+
 }
 
-.text{
+.text {
     text-align: center;
     color: white;
     font-weight: bolder;
     font-size: larger;
 }
 
-.text2{
+.text2 {
     text-align: center;
     color: white;
     font-weight: bolder;
     font-size: large;
     text-align: center;
-    
+
 }
 
-.heads{
+.heads {
     color: white;
     text-align: center;
     font-weight: bolder;
@@ -126,60 +124,77 @@ input[type="submit"] {
     grid-column: 2;
 }
 
-#check{
+#check {
     display: grid;
     width: 400px;
     grid-template-columns: 50% 50%;
     align-items: center;
     grid-gap: 0.5em;
     padding-right: 15em;
-    
+
 }
 
-#login{
+#login {
     padding: %;
     font-size: small;
 }
 
-#termss{
+#termss {
     padding: 5%;
     font-size: small;
 }
 
-.firstname{
+.firstname {
     width: 100em;
 }
 
-.submit{
+.submit {
     width: 7em;
     font-weight: bolder;
 }
 
 
-#QNA{
+#QNA {
     display: grid;
     padding: 1em;
     align-items: center;
 }
-body{
-      background: linear-gradient(-45deg, red, #cc0000, #800000, #ff4d4d, #ff6666);
-      background-size: 400% 400%;
-      animation: gradient 4s ease infinite;
-      height: auto;
-      color: var(--clr-dark);
-      margin: 0;
-      font-family: var(--ff-primary);
-      font-size: var(--fs-body);
-      line-height: 1.6;
+
+
+body {
+    background: linear-gradient(-45deg, red, #cc0000, #800000, #ff4d4d, #ff6666);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    height: auto;
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
 }
 
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
+}
+
+body {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "main main main"
+        "aside aside aside"
+        "footer footer footer"
+}
