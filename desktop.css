@@ -73,19 +73,3 @@ body {
 header a {
     display: none;
 }
-
-#clicked on{
-    display: none;
-}
-
-.nav a{
-    display: none;
-}
-
-nav a{
-    display: none;
-}
-
-#clicked.on{
-    display: none;
-}
