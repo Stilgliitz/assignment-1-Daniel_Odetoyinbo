@@ -66,6 +66,14 @@ footer {
 
 }
 
+.reporttext{
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-size: large;
+        text-align: center;
+    
+}
 .heads {
     color: white;
     text-align: center;
