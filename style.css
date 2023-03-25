@@ -40,6 +40,13 @@ footer {
     padding: 2%;
 }
 
+.sitepic {
+    height: auto;
+    width: 40%;
+    padding: 5%;
+    align-items: center;
+}
+
 .second {
     display: block;
     height: auto;
